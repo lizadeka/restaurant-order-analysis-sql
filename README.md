@@ -96,28 +96,6 @@ The project consists of two relational tables:
 
 ---
 
-## 📁 Project Structure
-
-```
-restaurant-order-analysis-sql/
-│
-├── Dataset/
-│   ├── menu_items.csv
-│   └── order_details.csv
-│
-├── SQL Queries/
-│   └── restaurant_order_analysis.sql
-│
-├── Screenshots/
-│   ├── menu_analysis.png
-│   ├── order_analysis.png
-│   └── customer_behavior.png
-│
-└── README.md
-```
-
----
-
 ## 🚀 Technologies Used
 
 - MySQL
