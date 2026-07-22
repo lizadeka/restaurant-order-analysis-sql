@@ -87,20 +87,142 @@ The project consists of two relational tables:
 
 ---
 
-## 💡 Key Business Insights
-
-- Premium-priced menu items contribute significantly to order value.
-- Menu categories vary considerably in average pricing.
-- A small number of orders account for the highest revenue.
-- Understanding ordering behavior can help optimize menu offerings and inventory planning.
-
----
-
 ## 🚀 Technologies Used
 
 - MySQL
 - SQL
 - Maven Analytics Dataset
+---
+
+# 📊 Analysis & Results
+
+## 1️⃣ Menu Analysis
+
+### Total Menu Items
+
+| Metric | Result |
+|---------|-------:|
+| Total Menu Items | **32** |
+
+---
+
+### Least & Most Expensive Menu Items
+
+| Item | Category | Price |
+|------|----------|------:|
+| Edamame | Asian | **$5.00** |
+| Shrimp Scampi | Italian | **$19.95** |
+
+---
+
+### Italian Menu Analysis
+
+| Metric | Result |
+|---------|-------:|
+| Total Italian Dishes | **9** |
+| Cheapest Italian Dish | **$14.50** |
+| Most Expensive Italian Dish | **$19.95** |
+
+---
+
+### Average Price by Category
+
+| Category | No. of Dishes | Average Price |
+|-----------|--------------:|--------------:|
+| Italian | 9 | **$16.75** |
+| Asian | 8 | **$13.48** |
+| Mexican | 9 | **$11.80** |
+| American | 6 | **$10.07** |
+
+---
+
+## 2️⃣ Order Analysis
+
+### Order Date Range
+
+| First Order | Last Order |
+|--------------|------------|
+| **2023-01-01** | **2023-03-31** |
+
+---
+
+### Total Orders & Items Ordered
+
+| Metric | Result |
+|---------|-------:|
+| Order Records | **12,234** |
+| Items Ordered | **12,097** |
+
+---
+
+### Orders with the Most Items
+
+| Order ID | Items Ordered |
+|-----------|--------------:|
+| 2675 | 14 |
+| 443 | 14 |
+| 1957 | 14 |
+| 3473 | 14 |
+| 330 | 14 |
+| 440 | 14 |
+| 4305 | 14 |
+
+---
+
+### Orders with More Than 12 Items
+
+**20 Orders**
+
+---
+
+## 3️⃣ Customer Behavior Analysis
+
+### Top 5 Highest-Spending Orders
+
+| Rank | Order ID | Total Amount |
+|------|----------|-------------:|
+| 1 | 440 | **$192.15** |
+| 2 | 2075 | **$191.05** |
+| 3 | 1957 | **$190.10** |
+| 4 | 330 | **$189.70** |
+| 5 | 2675 | **$185.10** |
+
+---
+
+### Items Purchased in the Highest-Spending Order (Order #440)
+
+- Steak Tacos
+- Hot Dog
+- Spaghetti
+- Spaghetti & Meatballs (2)
+- Fettuccine Alfredo (2)
+- Korean Beef Bowl
+- Meat Lasagna
+- Edamame
+- Chips & Salsa
+- Chicken Parmesan
+- French Fries
+- Eggplant Parmesan
+
+**Total Order Value:** **$192.15**
+
+---
+
+### Highest Individual Order Value
+
+**$192.15**
+
+---
+
+# 💡 Business Insights
+
+- The restaurant offers **32 menu items** across four food categories.
+- **Italian cuisine has the highest average menu price**, making it the premium category.
+- **American dishes are the most affordable** on average, making them attractive for budget-conscious customers.
+- Only **20 orders contained more than 12 items**, indicating that very large group orders are relatively uncommon.
+- The highest-value orders include a mix of dishes from different categories, suggesting customers enjoy combining different cuisines in a single order.
+- Premium Italian dishes appear multiple times in the highest-spending orders, indicating they contribute significantly to overall revenue.
+- Understanding customer ordering patterns can help restaurants optimize menu offerings, pricing strategies, and inventory planning.
 
 ---
 
